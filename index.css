@@ -1,0 +1,56 @@
+html {
+    height: 100%;
+}
+
+body {
+    height: inherit;
+    background-color: black;
+   
+}
+
+header {
+    display: block;
+}
+
+main {
+    height: inherit;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tilda-name {
+    color: white;
+    font-family: 'ibm plex sans';
+    font-size: 150pt;
+
+}
+
+.tilda-name > div {
+    padding: none;
+    margin: none;
+    display: inline;
+    
+}
+
+#logo-1 {
+    top: 50px;
+    font-weight: 800;
+}
+
+#logo-2 {
+    font-weight: 650;
+}
+
+#logo-3 {
+    font-weight: 500;
+}
+
+#logo-4 {
+    font-weight: 350;
+}
+
+#logo-5 {
+    font-weight: 100;
+    padding-left: -10px;
+}
